@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CoreCompanies" representedClassName="CoreCompanies" syncable="YES">
+        <attribute name="companyImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyStockPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="primaryKey" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CoreProducts" representedClassName="CoreProducts" syncable="YES">
+        <attribute name="companyKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CoreCompanies" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="CoreProducts" positionX="-54" positionY="-9" width="128" height="103"/>
+    </elements>
+</model>
